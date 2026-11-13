@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>救命設備（LSA）の年次・5年次点検 | Natal Safety</title>
+  <meta name="description" content="ブラジルの港で実施する救命艇、救助艇、ダビット、離脱装置の年次・5年次点検のお見積もりを依頼できます。">
+  <meta name="theme-color" content="#102c40">
+  <link rel="icon" href="../assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../language.js"></script>
+  <script defer src="../lead-form.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#principal">本文へ移動</a>
+  <main id="principal">
+    <section class="hero" id="inicio" aria-labelledby="titulo">
+      <picture class="hero-media">
+        <source media="(max-width: 700px)" srcset="../assets/hero-lsa-mobile-600.webp 600w, ../assets/hero-lsa-mobile-1000.webp 1000w" sizes="100vw">
+        <img src="../assets/hero-lsa-1440.webp" srcset="../assets/hero-lsa-1440.webp 1440w, ../assets/hero-lsa-2200.webp 2200w" sizes="90vw" width="1440" height="774" alt="" fetchpriority="high">
+      </picture>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="hero-brand-row">
+            <img class="hero-logo" src="../assets/natal-safety.webp" alt="Natal Safety" width="390" height="97">
+            <details class="language-menu">
+              <summary aria-label="言語 · 日本語">日本語</summary>
+              <nav aria-label="言語"><a href="../pt/" lang="pt-BR" hreflang="pt-BR" data-language="pt">Português</a><a href="../en/" lang="en" hreflang="en" data-language="en">English</a><a href="../es/" lang="es" hreflang="es" data-language="es">Español</a><a href="../ja/" lang="ja" hreflang="ja" data-language="ja" aria-current="page">日本語</a><a href="../ko/" lang="ko" hreflang="ko" data-language="ko">한국어</a><a href="../zh/" lang="zh-Hans" hreflang="zh-Hans" data-language="zh">简体中文</a></nav>
+            </details>
+          </div>
+          <p class="eyebrow" lang="en">LSA · Life-Saving Appliances</p>
+          <h1 id="titulo">救命設備（LSA） <span>年次・5年次点検</span></h1>
+          <p class="hero-intro">ブラジルの港で、救命艇・救助艇・ダビット・離脱装置を点検します。</p>
+          <p class="hero-standard">SOLAS <span aria-hidden="true">·</span> IMO MSC.402(96)</p>
+        </div>
+
+        <section class="quote-card" id="orcamento" tabindex="-1" aria-labelledby="form-title">
+          <h2 id="form-title">見積もりを依頼</h2>
+          <p class="quote-credential"><a href="https://www.liscr.com/maritime/regulations-and-standards/authorized-lifeboat-service-providers" target="_blank" rel="noopener">LSA事業者承認（リベリア船籍） <span aria-hidden="true">→</span></a></p>
+
+          <form id="lead-form" method="post" data-endpoint="">
+            <div class="form-grid">
+              <label class="field">
+                <span>船舶・ユニット名 <span class="required" aria-hidden="true">*</span></span>
+                <input name="vessel" type="text" placeholder="船名" maxlength="100" required>
+              </label>
+              <label class="field">
+                <span>港・作業場所 <span class="required" aria-hidden="true">*</span></span>
+                <input name="port" type="text" placeholder="港名または未定" maxlength="100" required>
+              </label>
+              <label class="field">
+                <span>ご希望のサービス <span class="required" aria-hidden="true">*</span></span>
+                <select name="inspection" required>
+                  <option value="" disabled selected>選択してください</option>
+                  <option value="annual">年次点検</option>
+                  <option value="five_yearly">5年次点検</option>
+                  <option value="annual_and_five_yearly">年次・5年次点検</option>
+                  <option value="unsure">相談したい</option>
+                  <option value="liferaft">膨張式救命いかだの点検</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>連絡先メール <span class="required" aria-hidden="true">*</span></span>
+                <input name="email" type="email" autocomplete="email" placeholder="email@site.com" maxlength="254" required>
+              </label>
+            </div>
+
+            <details class="form-extras" id="detalhes">
+              <summary>詳細を追加 <span class="optional" id="equipment-count" data-optional="任意">任意</span></summary>
+              <fieldset class="equipment-options">
+                <legend>見積もり対象の設備</legend>
+                <label><input type="checkbox" name="equipment" value="lifeboat"> 救命艇</label>
+                <label><input type="checkbox" name="equipment" value="rescue_boat"> 救助艇</label>
+                <label><input type="checkbox" name="equipment" value="davit_release_gear"> ダビット・離脱装置</label>
+                <label><input type="checkbox" name="equipment" value="liferaft"> 膨張式救命いかだ</label>
+              </fieldset>
+              <div class="extra-fields">
+                <label class="field">
+                  <span>IMO船舶番号</span>
+                  <input name="imo" type="text" inputmode="numeric" placeholder="船舶のIMO番号" maxlength="20" autocomplete="off">
+                </label>
+                <label class="field">
+                  <span>寄港予定</span>
+                  <input name="window" type="text" placeholder="日付またはETA/ETD" maxlength="100">
+                </label>
+                <label class="field field-wide">
+                  <span>設備の詳細</span>
+                  <textarea name="notes" rows="2" maxlength="700" placeholder="台数、メーカー、型式など"></textarea>
+                </label>
+                <label class="field">
+                  <span>会社名</span>
+                  <input name="company" type="text" autocomplete="organization" maxlength="120">
+                </label>
+                <label class="field">
+                  <span>電話番号またはWhatsApp</span>
+                  <input name="phone" type="tel" autocomplete="tel" placeholder="+55" maxlength="35">
+                </label>
+              </div>
+            </details>
+
+            <div hidden aria-hidden="true">
+              <label>Site <input name="website" type="text" autocomplete="off" tabindex="-1"></label>
+            </div>
+            <button class="primary-button" type="submit" disabled>見積もりを依頼する <span aria-hidden="true">→</span></button>
+            <p class="form-note" id="form-note">確認用プレビューです。送信はシミュレーションです。</p>
+            <p id="form-status" class="form-status" role="status" tabindex="-1" hidden></p>
+            <noscript><p class="form-note">お見積もりのご依頼先 <a href="mailto:contato@natalsafety.com.br">contato@natalsafety.com.br</a>.</p></noscript>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <section class="equipment-section wrap" id="equipamentos" aria-labelledby="equipment-title">
+      <div class="section-heading">
+        <h2 id="equipment-title">点検対象の設備</h2>
+        <p>見積もりに含める設備を選択してください。</p>
+      </div>
+      <div class="equipment-grid">
+        <article class="equipment-card">
+          <img src="../assets/baleeira.webp" alt="船尾に設置された自由降下式救命艇" width="700" height="700" loading="lazy" decoding="async">
+          <div class="equipment-copy">
+            <h3>救命艇</h3>
+            <p>自由降下式を含む救命艇の点検を行います。</p>
+            <a class="text-link" href="#orcamento" data-equipment="lifeboat">救命艇の見積もりを依頼 <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="equipment-card">
+          <img src="../assets/bote-resgate.webp" alt="ダビットのそばに設置されたオレンジ色の救助艇" width="760" height="348" loading="lazy" decoding="async">
+          <div class="equipment-copy">
+            <h3>救助艇</h3>
+            <p>救助艇の型式と船上での設置状況に応じて、点検と作動試験を行います。</p>
+            <a class="text-link" href="#orcamento" data-equipment="rescue_boat">救助艇の見積もりを依頼 <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="equipment-card">
+          <img src="../assets/turco-teste.webp" alt="船の甲板に設置された荷重試験用バッグ付きの進水装置" width="600" height="300" loading="lazy" decoding="async">
+          <div class="equipment-copy">
+            <h3>ダビット・離脱装置</h3>
+            <p>対象となる進水装置、ウインチ、離脱フックを点検します。</p>
+            <a class="text-link" href="#orcamento" data-equipment="davit_release_gear">進水装置の見積もりを依頼 <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="inspection-section" id="inspecoes" aria-labelledby="inspection-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <h2 id="inspection-title">年次点検と5年次点検</h2>
+          <p>設備ごとに適用されるSOLAS条約、IMO決議MSC.402(96)、メーカーの要件を確認します。</p>
+        </div>
+        <div class="inspection-grid">
+          <article>
+            <h3>年次点検</h3>
+            <p>船上の対象設備・システムの詳細点検と作動試験を行います。</p>
+          </article>
+          <article>
+            <h3>5年次点検</h3>
+            <p>詳細点検、過負荷での作動試験、対象となる離脱装置の開放整備を行います。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap complementary-wrap" aria-labelledby="liferaft-title">
+      <div class="complementary">
+        <div class="liferaft-views">
+          <figure>
+            <img src="../assets/balsa-fechada.webp" alt="船の甲板に固定された白い円筒形の救命いかだコンテナ" width="690" height="920" loading="lazy" decoding="async">
+            <figcaption>コンテナ収納時</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/balsa.webp" alt="水上に浮かぶ、オレンジ色の覆いが付いた膨張式救命いかだ" width="566" height="378" loading="lazy" decoding="async">
+            <figcaption>水上展開時</figcaption>
+          </figure>
+        </div>
+        <div class="complementary-copy">
+          <h2 id="liferaft-title">膨張式救命いかだの点検もご希望ですか？</h2>
+          <p>同じ依頼に救命いかだを追加すると、担当者が対応内容と空き状況を確認します。</p>
+          <a class="text-link" href="#orcamento" data-equipment="liferaft">救命いかだを見積もりに追加 <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section wrap" id="duvidas" aria-labelledby="faq-title">
+      <div class="section-heading">
+        <h2 id="faq-title">お見積もりに関するよくある質問</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Natal Safetyはどの港で対応していますか？</summary>
+          <p>ブラジル国内の港で対応しています。港名と、わかる場合は寄港予定をお知らせください。担当者が対応可否を確認します。</p>
+        </details>
+        <details>
+          <summary>IMO船舶番号は必須ですか？</summary>
+          <p>IMO船舶番号は任意です。船舶名またはユニット名で依頼を始め、詳細は後から追加できます。</p>
+        </details>
+        <details>
+          <summary>見積もりに役立つ情報は何ですか？</summary>
+          <p>設備の種類と台数、メーカー、型式、船籍、船級協会、希望作業日時があると、点検範囲を確認しやすくなります。お手元にあれば、前回の点検報告書と設備の銘板写真もご用意ください。</p>
+        </details>
+        <details>
+          <summary>自船の設備に対応できるか、どう確認できますか？</summary>
+          <p>メーカーと型式をお知らせください。設備、船籍、船級協会に応じた承認を担当者が確認します。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="bottom-cta" aria-label="LSA点検のお見積もり">
+      <div class="wrap bottom-inner">
+        <h2>次回のLSA点検をご計画ください</h2>
+        <a class="primary-button" href="#orcamento">見積もりを依頼 <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p><strong>Natal Safety</strong> <span>Natal, RN · ブラジル</span></p>
+      <div>
+        <a href="mailto:contato@natalsafety.com.br">contato@natalsafety.com.br</a>
+        <a href="tel:+558432011240">+55 (84) 3201-1240</a>
+      </div>
+    </div>
+    <p class="wrap photo-credit">イメージ写真の撮影 <a href="https://commons.wikimedia.org/wiki/File:Freefall_lifeboat_of_the_Bulk_carrier_Queen_Sapphire_at_the_Kwinana_Bulk_Terminal,_June_2024_02.jpg">Calistemon</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>、一部トリミング。</p>
+    <p class="wrap photo-credit">救命いかだコンテナの撮影 <a href="https://commons.wikimedia.org/wiki/File:Rettungsinseln_der_Funny_Girl.jpg">Michael Brandtner</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>、一部トリミング。</p>
+  </footer>
+  <script id="form-messages" type="application/json">{"dataUse":"ご入力いただいた情報は、お問い合わせへの回答に使用します。","oneEquipment":"設備を1件選択中","manyEquipment":"設備を{count}件選択中","required":"この項目を入力してください。","requiredService":"サービスを選択してください。","invalidEmail":"有効なメールアドレスを入力してください。","invalidImo":"IMO船舶番号を7桁または8桁で入力するか、空欄のままにしてください。","preview":"テストが完了しました。送信はシミュレーションです。","success":"ご依頼を受け付けました。入力されたメールアドレスにNatal Safetyからご連絡します。","error":"送信できませんでした。もう一度お試しいただくか、contato@natalsafety.com.brまでご連絡ください。"}</script>
+</body>
+</html>
